@@ -1,0 +1,79 @@
+.home-container {
+  font-family: 'Arial', sans-serif;
+}
+
+.hero-carousel .carousel-item {
+  height: 400px;
+}
+
+.hero-carousel .carousel-item img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.hero-carousel .carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.category-item, .store-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.category-item img, .store-item img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.category-item:hover img, .store-item:hover img {
+  transform: scale(1.1);
+}
+
+.category-item h3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 123, 255, 0.7);
+  color: white;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+.blog-post .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.testimonials {
+  background-color: #f8f9fa;
+  padding: 2rem 0;
+}
+
+.testimonials blockquote {
+  font-style: italic;
+  max-width: 800px;
+  margin: 0 auto;
+}

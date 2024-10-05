@@ -1,0 +1,39 @@
+.navbar-custom {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #2c3e50 !important;
+  }
+  
+  .brand-icon {
+    color: #27ae60;
+    margin-right: 0.5rem;
+  }
+  
+  .nav-link {
+    font-weight: 500;
+    color: #34495e !important;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #27ae60 !important;
+  }
+  
+  .form-control {
+    border-radius: 20px 0 0 20px;
+  }
+  
+  .btn-outline-success {
+    border-radius: 0 20px 20px 0;
+    border-color: #27ae60;
+    color: #27ae60;
+  }
+  
+  .btn-outline-success:hover {
+    background-color: #27ae60;
+    color: white;
+  }
